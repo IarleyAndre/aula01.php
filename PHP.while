@@ -1,0 +1,13 @@
+<?php
+echo"<h1>USANDO O WHILE</h1>";
+$i=0;
+ while($i<<?php10){
+    $j=0;
+    while($j<$i){
+
+ echo "0";
+  $j++;
+    }
+ echo"<br>";
+ $i++;
+}
