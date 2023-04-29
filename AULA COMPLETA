@@ -1,0 +1,33 @@
+# aula01.php
+
+<?php
+$a = 2;$b = 5; $c = 2;
+$delta = ($b*$b) -4*$a * $c;
+if($delta>=0){
+$x1 = ($b*-1 + sqrt($delta)) / (2*$a);
+$x2 = ($b*-1 - sqrt($delta)) / (2*$a);
+ echo($x1);
+ echo($x2);
+} 
+else{
+    echo("negativo"); }
+?>
+
+---------------------------------------------------------------------
+
+<?php
+$altura = 1.73;
+$peso = 70;
+$imc = $peso/$altura**2;
+if($imc <=18.5){
+    echo('abeixa do peso');}
+elseif ($imc <=24.9 ){
+    echo('peso ideal');}
+elseif($imc <= 29.9){
+    echo("acima do peso");}   
+elseif($imc>30){
+    echo("OBESIDADE");}
+?>
+
+=============================================================================
+
